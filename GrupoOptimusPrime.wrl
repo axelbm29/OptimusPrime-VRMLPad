@@ -1,0 +1,2119 @@
+#VRML V2.0 utf8
+
+Shape {	#pecho
+	appearance Appearance {
+		material Material {
+			diffuseColor 0.737254902 0.08627451 0.08627451 #rojo
+		}
+	}
+	geometry Box {
+		size 6 3 2.3
+	}
+}
+Transform {	#pecho3d
+	translation	0.028 0 1
+	rotation 0 1 0 0.78
+	children [
+	Shape {
+			appearance Appearance {
+			material Material {
+			diffuseColor 0.737254902 0.08627451 0.08627451
+		}
+	}
+	geometry Box{
+		size 0.6 3 0.5
+	}
+}
+]
+}
+Transform {#faro1
+	translation -2.8 1.5 1.2
+	rotation 1 0 0 1.578
+	children [
+		Shape{
+			appearance Appearance {
+				material Material{
+					diffuseColor 0.737254902 0.08627451 0.08627451
+				}
+			}
+			geometry Cylinder {
+				radius 0.1
+				height 0.3
+			}
+		}
+	]
+}
+Transform {#farolinterna
+	translation -2.8 1.5 1.2
+	rotation 1 0 0 1.578
+	children [
+		Shape{
+			appearance Appearance {
+				material Material{
+					diffuseColor 0.74509803921 0.77647058823 0.34901960784 #amarillo optimus
+				}
+			}
+			geometry Cylinder {
+				radius 0.05
+				height 0.301
+			}
+		}
+	]
+}
+#faro2
+ Transform {#faro1
+	translation -2.5 1.5 1.2
+	rotation 1 0 0 1.578
+	children [
+		Shape{
+			appearance Appearance {
+				material Material{
+					diffuseColor 0.737254902 0.08627451 0.08627451
+				}
+			}
+			geometry Cylinder {
+				radius 0.1
+				height 0.3
+			}
+		}
+	]
+}
+Transform {#farolinterna
+	translation -2.5 1.5 1.2
+	rotation 1 0 0 1.578
+	children [
+		Shape{
+			appearance Appearance {
+				material Material{
+					diffuseColor 0.74509803921 0.77647058823 0.34901960784 #amarillo optimus
+				}
+			}
+			geometry Cylinder {
+				radius 0.05
+				height 0.301
+			}
+		}
+	]
+}
+
+
+Transform {#faro3
+	translation 2.8 1.5 1.2
+	rotation 1 0 0 1.578
+	children [
+		Shape{
+			appearance Appearance {
+				material Material{
+					diffuseColor 0.737254902 0.08627451 0.08627451
+				}
+			}
+			geometry Cylinder {
+				radius 0.1
+				height 0.3
+			}
+		}
+	]
+}
+Transform {#farolinterna
+	translation 2.8 1.5 1.2
+	rotation 1 0 0 1.578
+	children [
+		Shape{
+			appearance Appearance {
+				material Material{
+					diffuseColor 0.74509803921 0.77647058823 0.34901960784 #amarillo optimus
+				}
+			}
+			geometry Cylinder {
+				radius 0.05
+				height 0.301
+			}
+		}
+	]
+}
+#faro2
+ Transform {#faro4
+	translation 2.5 1.5 1.2
+	rotation 1 0 0 1.578
+	children [
+		Shape{
+			appearance Appearance {
+				material Material{
+					diffuseColor 0.737254902 0.08627451 0.08627451
+				}
+			}
+			geometry Cylinder {
+				radius 0.1
+				height 0.3
+			}
+		}
+	]
+}
+Transform {#farolinterna
+	translation 2.5 1.5 1.2
+	rotation 1 0 0 1.578
+	children [
+		Shape{
+			appearance Appearance {
+				material Material{
+					diffuseColor 0.74509803921 0.77647058823 0.34901960784 #amarillo optimus
+				}
+			}
+			geometry Cylinder {
+				radius 0.05
+				height 0.301
+			}
+		}
+	]
+}
+
+Transform {	#esternon
+	translation	0 -2 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765 #plomo
+				}
+			}
+			geometry Box {
+				size 5 1 2
+			}
+		}
+		]
+	}
+Transform {	#costado izquierdo
+	translation	-2.308 -1.78 0
+	rotation 0 0 1 0.4625123
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765
+				}
+			}
+			geometry Box {
+				size 1 1.118033988749895 2
+			}
+		}
+	]
+}
+Transform { #costado derecho
+	translation	2.308 -1.78 0
+	rotation 0 0 -1 0.4625123
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765
+				}
+			}
+			geometry Box {
+				size 1 1.118033988749895 2
+			}
+		}
+	]
+}
+Transform{ #cintura
+	translation	0 -3.25 0
+	children[
+		Shape{
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.737254902 0.08627451 0.08627451
+				}
+			}
+			geometry Box {
+				size 5 1.5 1.8
+			}
+		}
+
+	]
+}
+Transform {	#pelvis
+	translation	0 -4.75 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765 #plomo
+				}
+			}
+			geometry Box {
+				size 5.2 1.5 2
+			}
+		}
+	]
+}
+Transform {	#lado izquierdo del pelvis
+	translation	-1.5 -5.3 0
+	rotation 0 0 1 1.29154
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765
+				}
+			}
+			geometry Box {
+				size 1 2 2
+			}
+		}
+	]
+}
+Transform {	#lado derecho del pelvis
+	translation	1.5 -5.3 0
+	rotation 0 0 -1 1.29154
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765
+				}
+			}
+			geometry Box {
+				size 1 2 2
+			}
+		}
+	]
+}
+Transform {	#lado entrepierna
+	translation	0 -5.775 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765
+				}
+			}
+			geometry Box{
+				size 1.40 0.56 2
+			}
+		}
+	]
+}
+Transform {	#pecho izquierdo
+	translation	-1.5 0 0.5
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.56862745098 0.74117647058 0.77647058823
+				}
+			}
+			geometry Box{
+				size 2.5 2.5 1.5
+			}
+		}
+	]
+}
+Transform {	#pecho derecho
+	translation	1.5 0 0.5
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.56862745098 0.74117647058 0.77647058823
+				}
+			}
+			geometry Box{
+				size 2.5 2.5 1.5
+			}
+		}
+	]
+}
+Transform { #ganpi
+	translation	0 -6.2 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157
+				}
+			}
+			geometry Box {
+				size 1 0.5 1.8
+			}
+		}
+	]
+}
+Transform {
+	translation	0 -4.7 0.1
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.74509803921 0.77647058823 0.34901960784 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 2 0.8 1.9	
+			}
+		}
+	]
+}
+Transform {
+	translation	0 -2.75 0.4
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765
+				}
+			}
+			geometry Box{
+				size 1.8 2.5 2
+			}
+		}
+	]
+}
+Transform {
+	translation -0.388 -1.423 0.4
+	rotation 0 0 1 0.4625123
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765
+				}
+			}
+			geometry Box{
+				size 1 0.3 2
+			}
+		}
+	]
+}
+Transform {
+	translation 0.388 -1.423 0.4
+	rotation 0 0 -1 0.4625123
+	children[
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765
+				}
+			}
+			geometry Box{
+				size 1 0.3 2
+			}
+		}
+	]
+}
+Transform{
+	translation	0 -1.5 0.4
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765
+				}
+			}
+			geometry Box {
+				size 0.5 0.2 2
+			}
+		}
+		]
+	}
+
+
+Transform {
+	translation	-1.6 -4.5 0.1
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.74509803921 0.77647058823 0.34901960784 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.6 0.4 1.9	
+			}
+		}
+	]
+}
+Transform {
+	translation	1.6 -4.5 0.1
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.74509803921 0.77647058823 0.34901960784 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.6 0.4 1.9	
+			}
+		}
+	]
+}
+
+Transform {
+	translation	-1.4 -4.9 0.1
+	rotation 1 -1 0 0.345
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.74509803921 0.77647058823 0.34901960784 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.6 0.4 1.9	
+			}
+		}
+	]
+}
+
+Transform {
+	translation	1.4 -4.9 0.1
+	rotation 1 1 0 0.345
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.74509803921 0.77647058823 0.34901960784 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.6 0.4 1.9	
+			}
+		}
+	]
+}
+Transform {
+	translation	-2.69 1.19 1.1
+	rotation 1 1 0 0.345
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.737254902 0.08627451 0.08627451 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.2 0.2 0.3	
+			}
+		}
+	]
+}
+Transform {
+	translation	2.69 1.19 1.1
+	rotation 1 -1 0 0.345
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.737254902 0.08627451 0.08627451 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.2 0.2 0.3	
+			}
+		}
+	]
+}
+Transform {
+	translation	-0.31 1.19 1.1
+	rotation 1 -1 0 0.345
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.737254902 0.08627451 0.08627451 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.2 0.2 0.3	
+			}
+		}
+	]
+}
+Transform {
+	translation	0.31 1.19 1.1
+	rotation 1 1 0 0.345
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.737254902 0.08627451 0.08627451 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.2 0.2 0.3	
+			}
+		}
+	]
+}
+Transform {
+	translation	0.31 -1.19 1.1
+	rotation -1 1 0 0.345
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.737254902 0.08627451 0.08627451 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.2 0.2 0.3	
+			}
+		}
+	]
+}
+Transform {
+	translation	-0.31 -1.19 1.1
+	rotation -1 -1 0 0.345
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.737254902 0.08627451 0.08627451 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.2 0.2 0.3	
+			}
+		}
+	]
+}
+Transform {
+	translation	2.69 -1.184 1.1
+	rotation -1 -1 0 0.345
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.737254902 0.08627451 0.08627451 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.2 0.2 0.3	
+			}
+		}
+	]
+}
+Transform {
+	translation	-2.69 -1.184 1.1
+	rotation -1 1 0 0.345
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.737254902 0.08627451 0.08627451 #amarillo optimus
+				}
+			}
+			geometry Box{
+				size 0.2 0.2 0.3	
+			}
+		}
+	]
+}
+#---------------------------------------------------------------------------------------------------------------------
+Transform {
+	translation	0 1.8 0
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765
+				}
+			}
+			geometry Box{
+				size 2 1 2
+			}
+		}
+	]
+
+}
+Transform {
+	translation	0 2.6 0
+	children [
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor 0.058823529 0.54901960 0.980392157			   # AZUL REY
+		}
+	}
+
+	geometry Box   	{size 2.2 1.8 2.2 }
+
+}
+				 
+	   # ESFERA - ENCIMA DE SU CABEZA
+
+# TRANSFORM - TRANSLATION
+# Siempre se trabaja fuera del Shape
+
+Transform {translation  0 1.5 -0.2
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157		# AZUL REY
+				}
+			}
+			geometry Sphere {
+				radius 1.3 
+			}  
+		} 
+	]  
+}  
+
+
+# PARTE DEL COSTADO - OREJAS - Su lado DERECHO del personaje
+
+
+Transform {translation  -1.25 0 0.3
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157		# Color AZUL  REY
+				}
+			}
+			geometry Box {
+				size 0.4 1.9 2.8				# Grosor , largo , ancho
+			}  
+		} 
+	]  
+}  
+
+# PARTE DEL COSTADO - OREJAS - Su lado IZQUIERDO del personaje
+
+
+Transform {translation  1.25 0 0.3
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157			# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.4 1.9 2.8				   	# ANCHO , ALTO , PROFUNDIDAD
+			}  
+		} 
+	]  
+}  
+				
+
+# TRANSFORM - ROTACIÓN
+
+# Transform {rotation  1 1 1 2 children [ Shape { geometry Cone {height 6 bottomRadius 2 }  } ]  }
+
+# PARTE DE LA BOCA
+
+ Transform {
+	translation	0 0 1
+
+	# ROTAMOS EN EL EJE 'Y'
+	# 45° EN RADIANES ES = 0.785
+
+	 rotation  0 1 0 0.785 
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1 1 1		# Color PLOMO
+				}
+			}
+			geometry Box {
+				size 1.8 1.8 1.8				 # ANCHO , ALTO , PROFUNDIDAD
+			}  
+		} 
+	]  
+}  
+
+
+# PARTE DE LA CRESTA
+
+	Transform {translation  0 1.3 1.05
+		rotation 1 0 0 3.16
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 1 1 1 		# Color CELESTE
+				}
+			}
+			geometry Cone {
+				
+				height 0.6
+				bottomRadius 0.35
+
+			}
+		} 
+	]  
+}  
+
+# PARTE DEL FONDO DE LOS OJOS
+
+	Transform {
+		translation	0 1.2 0.9
+		rotation  0 0 1 1.57
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.729411765 0.729411765 0.729411765 		# Color PLOMO/Blanco
+				}
+			}
+			geometry Box {
+				size 0.5 2.2 0.5 
+			}  
+		} 
+	]  
+}
+
+
+# Cono TIPO GORRA
+
+Transform {
+	translation 0 1.7 0.5
+		rotation 0 0 0 0
+		children [
+	Shape {
+		appearance Appearance {
+			material Material {
+				diffuseColor 0.058823529 0.54901960 0.980392157			 # Color MORADO
+			}
+		}
+		geometry Cone {
+			height 0.6
+			bottomRadius 1.5
+			}
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+# Ojo Derecho de Optimus
+
+Transform {
+	translation -0.55 1.15 1.2				 # ANCHO o los lados (Horizontal Ejer'X') - ALTURA (Vertical Eje'Y') -	PRODUNDIDAD(Eje'Z')
+		rotation 0 0 0 0
+		children [
+	Shape {
+		appearance Appearance {
+			material Material {
+				diffuseColor 0.058823529 0.54901960 0.980392157			 # Color NEGRO
+			}
+		}
+		geometry Box {
+			size 0.5 0.2 0.05				# ANCHO , ALTO , PROFUNDIDAD
+			
+			}
+		}
+	]
+}
+
+# Ojo Izquierdo de Optimus
+
+Transform {
+	translation 0.55 1.15 1.2				 # ANCHO o los lados (Horizontal Ejer'X') - ALTURA (Vertical Eje'Y') -	PRODUNDIDAD(Eje'Z')
+		rotation 0 0 0 0
+		children [
+	Shape {
+		appearance Appearance {
+			material Material {
+				diffuseColor 0.058823529 0.54901960 0.980392157			 # Color NEGRO
+			}
+		}
+		geometry Box {
+			size 0.5 0.2 0.05				# ANCHO , ALTO , PROFUNDIDAD
+			
+			}
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Parte punteagudas del lado de su Oreja Derecha del Personaje  ( PARTE ALTA DE ATRAS)
+
+ Transform {
+	translation	-1.15 0.9 -0.1
+
+	# ROTAMOS EN EL EJE 'Y'
+	# 45° EN RADIANES ES = 0.785
+
+	# Rotamos 45° en el eje 'Y'
+
+	rotation  0 1 0 0.785 
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157			# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.3 3.8 0.05				 # ANCHO , ALTO , PROFUNDIDAD
+			}  
+		} 
+	]  
+}  
+
+ Transform {
+	 translation -1.35 0.9 -0.1
+
+	# ROTAMOS EN EL EJE 'Z'
+	# 45° EN RADIANES ES = 0.785
+
+	# Rotamos 45° en el eje 'Z'
+
+	rotation  0 1 0 -0.785 
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157			# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.3 3.8 0.05				 # ANCHO , ALTO , PROFUNDIDAD
+			}  
+		} 
+	]  
+}
+
+
+# Parte punteagudas del lado de su Oreja Izquierdo del Personaje  ( PARTE ALTA DE ATRAS)
+
+ Transform {
+	translation	1.15 0.9 0.1
+
+	# ROTAMOS EN EL EJE 'Y'
+	# 45° EN RADIANES ES = 2.355
+
+	# Rotamos 135° en el eje 'Y'
+
+	rotation  0 1 0 2.355 
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157			# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.3 3.8 0.05				 # ANCHO , ALTO , PROFUNDIDAD
+			}  
+		} 
+	]  
+}  
+
+ Transform {
+	 translation 1.35 0.9 0.1
+
+	# ROTAMOS EN EL EJE 'Z'
+	# 135° EN RADIANES ES = 2.355
+
+	# Rotamos 135° en el eje 'Z'
+
+	rotation  0 1 0 -2.355 
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157		# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.3 3.8 0.05				 # ANCHO , ALTO , PROFUNDIDAD
+			}  
+		} 
+	]  
+}
+
+
+# Parte punteagudas del lado de su Oreja Derecha del Personaje  ( PARTE BAJA DE ADELANTE)
+
+ Transform {
+	translation	-1.15 0.9 1.15
+
+	# ROTAMOS EN EL EJE 'Y'
+	# 45° EN RADIANES ES = 0.785
+
+	# Rotamos 45° en el eje 'Y'
+
+	rotation  0 1 0 0.785 
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157			# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.3 3 0.05				 # ANCHO , ALTO , PROFUNDIDAD
+			}  
+		} 
+	]  
+}  
+
+ Transform {
+	 translation -1.35 0.9 1.15
+
+	# ROTAMOS EN EL EJE 'Z'
+	# 45° EN RADIANES ES = 0.785
+
+	# Rotamos 45° en el eje 'Z'
+
+	rotation  0 1 0 -0.785 
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157			# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.3 3 0.05				 # ANCHO , ALTO , PROFUNDIDAD
+			}  
+		} 
+	]  
+}
+
+
+# Parte punteagudas del lado de su Oreja Izquierda del Personaje  ( PARTE BAJA DE ADELANTE)
+
+ Transform {
+	translation	1.15 0.9 1.1
+
+	# ROTAMOS EN EL EJE 'Y'
+	# 1355° EN RADIANES ES = 2.355
+
+	# Rotamos 135° en el eje 'Y'
+
+	rotation  0 1 0 2.355 
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157			# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.3 3 0.05				 # ANCHO , ALTO , PROFUNDIDAD
+			}  
+		} 
+	]  
+}  
+
+ Transform {
+	 translation 1.35 0.9 1.1
+
+	# ROTAMOS EN EL EJE 'Z'
+	# 135° EN RADIANES ES = 2.355
+
+	# Rotamos 135° en el eje 'Z'
+
+	rotation  0 1 0 -2.355 
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157			# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.3 3 0.05				 # ANCHO , ALTO , PROFUNDIDAD
+			}  
+		} 
+	]  
+}
+
+
+# PARTE DEL COSTADO - OREJAS - Su lado DERECHO del personaje (ENCIMA Medio)
+
+
+Transform {translation  -1.25 1.35 0.13	  #parte del lado
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157		# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.4 0.8 2.4				# Ancho , Altura , Profundidad
+			}  
+		} 
+	]  
+}  
+
+
+
+
+
+# PARTE DEL COSTADO - OREJAS - Su lado DERECHO del personaje (ENCIMA Medio)
+
+
+Transform {translation  -1.25 2.05 -0.01
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157			# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.4 0.6 2.05				# Ancho , Altura , Profundidad
+			}  
+		} 
+	]  
+}  
+
+
+
+
+
+
+# PARTE DEL COSTADO - OREJAS - Su lado IZQUIERDO del personaje (ENCIMA Medio)
+
+
+Transform {translation  1.25 1.35 0.13
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157		# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.4 0.8 2.4				# Ancho , Altura , Profundidad
+			}  
+		} 
+	]  
+} 
+
+# PARTE DEL COSTADO - OREJAS - Su lado IZQUIERDO del personaje (ENCIMA Medio)
+
+
+Transform {translation  1.25 2.05 -0.01
+    children [ 
+		Shape {
+			appearance Appearance {
+				material Material {
+					diffuseColor 0.058823529 0.54901960 0.980392157			# Color AZUL REY
+				}
+			}
+			geometry Box {
+				size 0.4 0.6 2.05				# Ancho , Altura , Profundidad
+			}  
+		} 
+	]  
+}
+
+Transform {
+	translation	-1.55 0.1 0
+	rotation 0 0 1 1.57
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+						diffuseColor 0.058823529 0.54901960 0.980392157
+					}
+				}
+				geometry Cylinder {
+					radius 0.5 
+					height 0.2
+				}
+			}
+		]
+	}
+Transform {
+	translation	1.55 0.1 0
+	rotation 0 0 1 1.57
+	children [
+		Shape {
+			appearance Appearance {
+				material Material {
+						diffuseColor 0.058823529 0.54901960 0.980392157
+					}
+				}
+				geometry Cylinder {
+					radius 0.5 
+					height 0.2
+				}
+			}
+		]
+	}
+]
+}
+
+#-------------------------------------------------------------------------------------------------------------
+Transform {
+	translation	-4 0.2 0
+	children [
+
+
+#brazo
+
+Transform {
+ translation 0 0 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.737254902 0.08627451 0.08627451
+		}
+	}
+
+	geometry Box {
+	 size 2 2 2 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0 -1.5 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.737254902 0.08627451 0.08627451
+		}
+	}
+
+	geometry Box {
+	 size 1.7 1 2 
+	}
+}
+ ]
+}
+
+
+
+ Transform{			
+ translation 0 -2.07 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0 0 0
+		}
+	}
+
+	geometry Box {
+	 size 1.6 0.14 2 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0 -2.88 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.737254902 0.08627451 0.08627451
+		}
+	}
+
+	geometry Box {
+	 size 1.7 1.5 2 
+	}
+}
+ ]
+}
+
+ Transform{
+ translation 0 -3.7 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0 0 0
+		}
+	}
+
+	geometry Box {
+	 size 1.6 0.14 2 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0 -5.5 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.737254902 0.08627451 0.08627451
+		}
+	}
+
+	geometry Box {
+	 size 2.1 3.5 2 
+	}
+}
+ ]
+}
+
+
+#}
+
+
+#antena brazo
+
+
+
+Transform{
+ translation -1.3 1 0
+ children [
+  Shape{
+	  geometry Cylinder {
+	  
+	  radius 0.15
+	  height 2
+	  }
+  
+}
+ ]
+}
+
+
+Transform{
+ translation -1.3 -0.5 0
+ children [
+  Shape{
+	  geometry Cylinder {
+	  
+	  radius 0.3
+	  height 2
+	  }
+  
+}
+ ]
+}
+
+
+
+# mano
+
+	 Transform{
+ translation 0 -7.5 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 1.4 0.5 1.5 
+	}
+}
+ ]
+}
+
+ Transform{
+ translation -0.46 -8 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.46 0.5 1.5 
+	}
+}
+ ]
+}
+
+ Transform{
+ translation -0.46 -8.25 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.013333333 0.28 0.671111111
+		}
+	}
+
+	geometry Box {
+	 size 0.44 0.08 1.4 
+	}
+}
+ ]
+}
+
+
+ Transform{
+ translation -0.46 -8.47 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.46 0.4 1.5 
+	}
+}
+ ]
+}
+
+ Transform{
+ translation -0.46 -8.7 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.013333333 0.28 0.671111111
+		}
+	}
+
+	geometry Box {
+	 size 0.44 0.08 1.4 
+	}
+}
+ ]
+}
+
+
+ Transform{
+ translation -0.46 -8.89 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.46 0.4 1.5 
+	}
+}
+ ]
+}
+
+
+ Transform{
+ translation -0.48 -9.23 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.42 0.6 1.5 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0.45 -8 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.46 0.5 1.5 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0.45 -8.25 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.013333333 0.28 0.671111111
+
+
+		}
+	}
+
+	geometry Box {
+	 size 0.44 0.073 1.4 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0.44 -8.54 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.42 0.5 1.5 
+	}
+}
+ ]
+}
+
+]
+
+}
+
+
+
+Transform {
+	translation	-3 0.2 0
+	children [
+Transform {
+	rotation 0 1 0 3.14
+	translation	7 0 0
+	children [
+
+#brazo
+
+Transform {
+ translation 0 0 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.737254902 0.08627451 0.08627451
+		}
+	}
+
+	geometry Box {
+	 size 2 2 2 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0 -1.5 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.737254902 0.08627451 0.08627451
+		}
+	}
+
+	geometry Box {
+	 size 1.7 1 2 
+	}
+}
+ ]
+}
+
+
+
+ Transform{			
+ translation 0 -2.07 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0 0 0
+		}
+	}
+
+	geometry Box {
+	 size 1.6 0.14 2 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0 -2.88 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.737254902 0.08627451 0.08627451
+		}
+	}
+
+	geometry Box {
+	 size 1.7 1.5 2 
+	}
+}
+ ]
+}
+
+ Transform{
+ translation 0 -3.7 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0 0 0
+		}
+	}
+
+	geometry Box {
+	 size 1.6 0.14 2 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0 -5.5 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.737254902 0.08627451 0.08627451
+		}
+	}
+
+	geometry Box {
+	 size 2.1 3.5 2 
+	}
+}
+ ]
+}
+
+
+#}
+
+
+#antena brazo
+
+
+
+Transform{
+ translation -1.3 1 0
+ children [
+  Shape{
+	  geometry Cylinder {
+	  
+	  radius 0.15
+	  height 2
+	  }
+  
+}
+ ]
+}
+
+
+Transform{
+ translation -1.3 -0.5 0
+ children [
+  Shape{
+	  geometry Cylinder {
+	  
+	  radius 0.3
+	  height 2
+	  }
+  
+}
+ ]
+}
+
+
+
+# mano
+
+	 Transform{
+ translation 0 -7.5 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 1.4 0.5 1.5 
+	}
+}
+ ]
+}
+
+ Transform{
+ translation -0.46 -8 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.46 0.5 1.5 
+	}
+}
+ ]
+}
+
+ Transform{
+ translation -0.46 -8.25 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.013333333 0.28 0.671111111
+		}
+	}
+
+	geometry Box {
+	 size 0.44 0.08 1.4 
+	}
+}
+ ]
+}
+
+
+ Transform{
+ translation -0.46 -8.47 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.46 0.4 1.5 
+	}
+}
+ ]
+}
+
+ Transform{
+ translation -0.46 -8.7 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.013333333 0.28 0.671111111
+		}
+	}
+
+	geometry Box {
+	 size 0.44 0.08 1.4 
+	}
+}
+ ]
+}
+
+
+ Transform{
+ translation -0.46 -8.89 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.46 0.4 1.5 
+	}
+}
+ ]
+}
+
+
+ Transform{
+ translation -0.48 -9.23 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.42 0.6 1.5 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0.45 -8 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.46 0.5 1.5 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0.45 -8.25 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.013333333 0.28 0.671111111
+
+
+		}
+	}
+
+	geometry Box {
+	 size 0.44 0.073 1.4 
+	}
+}
+ ]
+}
+
+
+Transform{
+ translation 0.44 -8.54 0
+ children [
+  Shape{
+	appearance Appearance {
+		material Material {
+		diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+
+	geometry Box {
+	 size 0.42 0.5 1.5 
+	}
+}
+ ]
+}
+
+]
+
+}
+]}	
+#----------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------
+
+
+Shape {
+	appearance DEF aparienciaMadera Appearance {
+		texture	ImageTexture {
+			url	["ARCHIVO/madera.png"]	
+		}
+	}
+}
+
+Shape {
+	appearance DEF colorAzul Appearance {
+		material Material {
+			diffuseColor 0.058823529 0.54901960 0.980392157
+		}
+	}
+}
+
+Shape {
+	appearance DEF colorPlomo Appearance {
+		material Material {
+			diffuseColor 0.729411765 0.729411765 0.729411765
+		}
+	}
+}
+
+
+Transform {
+	translation	-1.6 -12.5 0
+	children [
+
+
+
+#pierna inferior
+Transform {
+	translation	0 0 0
+
+	children [
+		Shape {
+			appearance USE colorAzul
+
+			geometry Box {
+				size 2.5 6 2.3
+			}
+		}	
+	]
+}
+
+#pierna superior
+Transform {
+	translation	0 5 0
+	children [
+		Shape {
+			appearance USE colorPlomo
+
+			geometry Box {
+				size 1.8 4 1.9
+			}
+		}	
+	]
+}
+
+#accesorio pierna superior
+Transform {
+	translation -1.3 2.2 0
+	children [
+		Shape {
+			appearance USE colorPlomo
+
+			geometry Box {
+				size 0.3 1.2 2.2
+			}
+		}
+	]
+}
+
+
+
+#pie parte superior
+
+Transform {
+	translation	0 -1.9 1.1
+	rotation 1 0 0 0.7854
+	children [
+		Shape {
+			appearance USE colorAzul
+
+			geometry Box {
+				size 1.9 1.5 1.5
+			}
+		}
+	]
+}
+
+
+
+#pie parte inferior adentro
+
+Transform {
+	translation	0 -2.45 1.6
+	rotation 1 0 0 0
+	children [
+		Shape {
+			appearance USE colorAzul
+
+			geometry Box {
+				size 1.6 1.1 1
+			}
+		}
+	]
+}
+
+
+#pie parte inferior afuera
+
+Transform {
+	translation	0 -2.37 2
+	rotation 1 0 0 0.7854
+	children [
+		Shape {
+			appearance USE colorAzul
+
+			geometry Box {
+				size 1.6 0.8 1
+			}
+		}
+	]
+}
+
+
+#puntas de los pies
+
+Transform {
+	translation	0 -2.72 2.21
+	rotation 1 0 0 0
+	children [
+		Shape {
+			appearance USE colorPlomo
+
+			geometry Box {
+				size 1.4 0.57 1
+			}
+		}
+	]
+}
+]
+}
+#----------------------------
+Transform {
+	translation	1.6 -12.5 0
+	children [
+
+
+
+#pierna inferior
+Transform {
+	translation	0 0 0
+
+	children [
+		Shape {
+			appearance USE colorAzul
+
+			geometry Box {
+				size 2.5 6 2.3
+			}
+		}	
+	]
+}
+
+#pierna superior
+Transform {
+	translation	0 5 0
+	children [
+		Shape {
+			appearance USE colorPlomo
+
+			geometry Box {
+				size 1.8 4 1.9
+			}
+		}	
+	]
+}
+
+#accesorio pierna superior
+Transform {
+	translation 1.3 2.2 0
+	children [
+		Shape {
+			appearance USE colorPlomo
+
+			geometry Box {
+				size 0.3 1.2 2.2
+			}
+		}
+	]
+}
+
+
+
+#pie parte superior
+
+Transform {
+	translation	0 -1.9 1.1
+	rotation 1 0 0 0.7854
+	children [
+		Shape {
+			appearance USE colorAzul
+
+			geometry Box {
+				size 1.9 1.5 1.5
+			}
+		}
+	]
+}
+
+
+
+#pie parte inferior adentro
+
+Transform {
+	translation	0 -2.45 1.6
+	rotation 1 0 0 0
+	children [
+		Shape {
+			appearance USE colorAzul
+
+			geometry Box {
+				size 1.6 1.1 1
+			}
+		}
+	]
+}
+
+
+#pie parte inferior afuera
+
+Transform {
+	translation	0 -2.37 2
+	rotation 1 0 0 0.7854
+	children [
+		Shape {
+			appearance USE colorAzul
+
+			geometry Box {
+				size 1.6 0.8 1
+			}
+		}
+	]
+}
+
+
+#puntas de los pies
+
+Transform {
+	translation	0 -2.72 2.21
+	rotation 1 0 0 0
+	children [
+		Shape {
+			appearance USE colorPlomo
+
+			geometry Box {
+				size 1.4 0.57 1
+			}
+		}
+	]
+}
+]
+}
